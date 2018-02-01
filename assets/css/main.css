@@ -1,7 +1,7 @@
-@import url("font-awesome.min.css");
 @import url("https://fonts.googleapis.com/css?family=Source+Sans+Pro:300,300italic,400,400italic,600,600italic,700,700italic");
 
 /*
+@import url("font-awesome.min.css");
 	Directive by HTML5 UP
 	html5up.net | @ajlkn
 	Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
@@ -10,8 +10,8 @@
 /* Reset */
 
 	html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, acronym, address, big, cite, code, del, dfn, em, img, ins, kbd, q, s, samp, small, strike, strong, sub, sup, tt, var, b, u, i, center, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td, article, aside, canvas, details, embed, figure, figcaption, footer, header, hgroup, menu, nav, output, ruby, section, summary, time, mark, audio, video {
-		margin: 0;
 		padding: 0;
+		margin: 0;
 		border: 0;
 		font-size: 100%;
 		font: inherit;
@@ -3151,3 +3151,25 @@ a[href^="https://maps.google.com/maps"]{display:none !important}
 .gm-style > div:nth-child(10){
 	display:none;
    }
+
+
+.partnersContainer {
+
+	min-height: 200px;
+	display: flex;
+	display: -webkit-flex;
+	flex-wrap: wrap;
+	flex-direction: row;
+	justify-content: center;
+	align-items: center;
+	align-content: center;
+  }
+  
+.partner {
+	flex: 0 0 auto;
+	margin: 5px;
+}
+.partner img{
+	width:120px;
+	height:auto;
+}
