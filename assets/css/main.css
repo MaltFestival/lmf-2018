@@ -3043,8 +3043,8 @@ a[href^="https://maps.google.com/maps"] {
 		color:#333;
 		height: 10vh;
 		display: block;
-		margin-bottom: 70px;
-		margin-top: 50px;
+		margin-bottom: 60px;
+		margin-top: 30px;
 	}
 	.sidebuttonicon {
 		font-size:30px;
@@ -3052,5 +3052,11 @@ a[href^="https://maps.google.com/maps"] {
 	
 	.sidebuttontext {
 		font-size:17px;
+		text:center;
 	}
+}
+
+.sponsor {
+	margin-left: 50px;
+	margin-right: 50px;
 }
