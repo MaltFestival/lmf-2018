@@ -1989,7 +1989,7 @@ textarea {
 
 .image {
 	border: 0;
-	display: inline-block;
+	/*display: inline-block;*/
 	position: relative;
 }
 
@@ -2322,6 +2322,11 @@ input[type="button"].small,
 	float: left;
 }
 
+.description {
+	text-align: justify;
+	padding: 0 50px 25px 50px;
+}
+
 /* Feature */
 
 .feature {
@@ -2348,12 +2353,13 @@ input[type="button"].small,
 	overflow: hidden;
 	position: relative;
 	width: 50%;
+	vertical-align: middle;
 }
 
 .feature .image img {
 	display: block;
-	min-height: 100%;
-	min-width: 100%;
+	/*min-height: 100%;
+	min-width: 100%;*/
 	position: absolute;
 }
 
@@ -2389,7 +2395,7 @@ input[type="button"].small,
 }
 
 .feature.left .image img {
-	right: 0;
+	left: 0;
 	top: 0;
 }
 
