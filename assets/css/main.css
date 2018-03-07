@@ -3024,7 +3024,7 @@ a[href^="https://maps.google.com/maps"] {
 		align: center;
 		text-align: center;
 		position: fixed;
-		width: 200px;
+		width: 150px;
 		height: 100vh;
 		background: white;
 		/* border: 8px solid #ccc; */
@@ -3032,7 +3032,7 @@ a[href^="https://maps.google.com/maps"] {
 		/* background: red; */
 	}
 	.content-web {
-		margin-left: 200px;
+		margin-left: 150px;
 		height: 100vh;
 		width: auto;
 		position: relative;
@@ -3042,7 +3042,7 @@ a[href^="https://maps.google.com/maps"] {
 		border-left-width: 0px;
 	}
 	.sidebutton {
-		width: 200px;
+		width: 150px;
 		text-align: center;
 		border: none;
 		cursor: pointer;
