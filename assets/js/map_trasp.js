@@ -59,7 +59,7 @@ function initMap() {
             "elementType": "labels",
             "stylers": [
                 {
-                    "visibility": "on"
+                    "visibility": "off"
                 }
             ]
         },
@@ -146,7 +146,8 @@ function initMap() {
             elementType: 'geometry.fill',
             stylers: [
             {
-                color: "#5b5b5b"
+                // color: "#5b5b5b"
+                color: "#6c6c6c"
             }
         ]
         }

@@ -2527,7 +2527,7 @@ input[type="button"].small,
 #footer {
 	background-attachment: scroll;
 	background-color: #FAC054;
-	background-image: url("images/bottom-3200.svg");
+	background-image: url("images/bottom-3200.svg"), url("images/bg/footer.png");
 	background-position: top center;
 	background-repeat: repeat-x;
 	background-size: 3200px 460px;
@@ -3046,7 +3046,7 @@ a[href^="https://maps.google.com/maps"] {
 		text-align: center;
 		border: none;
 		cursor: pointer;
-		color:#333;
+		color:#777777;
 		height: 10vh;
 		display: block;
 		margin-bottom: 60px;
