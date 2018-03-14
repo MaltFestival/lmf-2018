@@ -57,9 +57,18 @@ function initMap() {
           "elementType": "labels",
           "stylers": [
             {
-              "visibility": "off"
+              "visibility": "on"
             }
           ]
+        },
+        {
+            "featureType": "administrative.locality",
+            "elementType": "labels",
+            "stylers": [
+                {
+                    "visibility": "on"
+                }
+            ]
         },
         {
           "elementType": "labels.icon",
@@ -124,7 +133,7 @@ function initMap() {
           "featureType": "administrative.neighborhood",
           "stylers": [
             {
-              "visibility": "off"
+              "visibility": "on"
             }
           ]
         },
