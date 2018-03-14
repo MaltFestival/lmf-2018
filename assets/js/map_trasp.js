@@ -24,7 +24,7 @@ function initMap() {
             "elementType": "labels",
             "stylers": [
                 {
-                    "visibility": "off"
+                    "visibility": "off",
                 }
             ]
         },
@@ -38,6 +38,15 @@ function initMap() {
             ]
         },
         {
+            "featureType": "administrative.locality",
+            "elementType": "labels",
+            "stylers": [
+                {
+                    "visibility": "on"
+                }
+            ]
+        },
+        {
             "featureType": "administrative.land_parcel",
             "stylers": [
                 {
@@ -47,9 +56,10 @@ function initMap() {
         },
         {
             "featureType": "administrative.neighborhood",
+            "elementType": "labels",
             "stylers": [
                 {
-                    "visibility": "off"
+                    "visibility": "on"
                 }
             ]
         },
@@ -60,10 +70,12 @@ function initMap() {
                     "visibility": "off"
                 }
             ]
-        },
-        {
-            "featureType": "road",
+        },{
+            "featureType": "poi.park",
             "stylers": [
+                {
+                    "lightness": -100
+                },
                 {
                     "visibility": "off"
                 }
@@ -79,7 +91,42 @@ function initMap() {
             ]
         },
         {
+            "featureType": "road.arterial",
+            "elementType": "labels",
+            "stylers": [
+                {
+                    "visibility": "off"
+                }
+            ]
+        },
+        {
+            "featureType": "road.highway",
+            "elementType": "labels",
+            "stylers": [
+                {
+                    "visibility": "off"
+                }
+            ]
+        },
+        {
+            "featureType": "road.local",
+            "stylers": [
+                {
+                    "visibility": "off"
+                }
+            ]
+        },
+        {
             "featureType": "transit",
+            "stylers": [
+                {
+                    "visibility": "off"
+                }
+            ]
+        },
+        {
+            "featureType": "road",
+            "elementType": "labels.icon",
             "stylers": [
                 {
                     "visibility": "off"
@@ -99,7 +146,7 @@ function initMap() {
             elementType: 'geometry.fill',
             stylers: [
             {
-                color: "#8c9292"
+                color: "#5b5b5b"
             }
         ]
         }
@@ -128,4 +175,9 @@ function initMap() {
     //create map object
     var map = new google.maps.Map(document.getElementById('map'), mapOptions);
 
-};
+    var marker = new google.maps.Marker({
+        position: lac,
+        map: map
+    });
+
+}
