@@ -2429,7 +2429,7 @@ input[type="button"].small,
 #header {
 	/*background-color: #4F6BA4;*/
 	background-attachment: scroll, scroll, fixed;
-	background-image: url("images/top-3200.svg"), url("images/overlay.png"), url("../../images/bg/beer_bg.png");
+	background-image:  url("images/overlay.png"), url("../../images/bg/beer_bg.png");
 	background-position: bottom center, top left, center center;
 	background-repeat: repeat-x, repeat, no-repeat;
 	background-size: 3200px 460px, auto, cover;
@@ -2527,7 +2527,7 @@ input[type="button"].small,
 #footer {
 	background-attachment: scroll;
 	background-color: #FAC054;
-	background-image: url("images/bottom-3200.svg"), url("images/bg/footer.png");
+	background-image:  url("images/bg/footer.png");
 	background-position: top center;
 	background-repeat: repeat-x;
 	background-size: 3200px 460px;
@@ -2739,7 +2739,7 @@ input[type="button"].small,
 	/* Header */
 	#header {
 		background-attachment: scroll, scroll, scroll;
-		/*background-image: url("images/top-1600.svg"), url("images/overlay.png"), url("../../images/header.jpg");*/
+		background-image:  url("images/overlay.png"), url("../../images/bg/beer_bg.png");
 		background-size: 1600px 230px, auto, cover;
 		padding: 0 0 12em 0;
 	}
@@ -2865,7 +2865,7 @@ input[type="button"].small,
 	}
 	/* Header */
 	#header {
-		background-image: url("images/top-1280.svg"), url("images/overlay.png"), url("../../images/header.jpg");
+		background-image:  url("images/overlay.png"), url("../../images/bg/beer_bg.png");
 		background-size: 1280px 184px, auto, cover;
 		padding: 0 0 7em 0;
 	}
