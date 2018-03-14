@@ -3024,7 +3024,7 @@ a[href^="https://maps.google.com/maps"] {
 		align: center;
 		text-align: center;
 		position: fixed;
-		width: 150px;
+		width: 120px;
 		height: 100vh;
 		background: white;
 		/* border: 8px solid #ccc; */
@@ -3032,7 +3032,7 @@ a[href^="https://maps.google.com/maps"] {
 		/* background: red; */
 	}
 	.content-web {
-		margin-left: 150px;
+		margin-left: 120px;
 		height: 100vh;
 		width: auto;
 		position: relative;
@@ -3042,7 +3042,7 @@ a[href^="https://maps.google.com/maps"] {
 		border-left-width: 0px;
 	}
 	.sidebutton {
-		width: 150px;
+		width: 120px;
 		text-align: center;
 		border: none;
 		cursor: pointer;
@@ -3063,8 +3063,8 @@ a[href^="https://maps.google.com/maps"] {
 }
 
 .sponsor {
-	margin-left: 50px;
-	margin-right: 50px;
+	margin-left: 30px;
+	margin-right: 30px;
 }
 
 .gm-style-mtc {
