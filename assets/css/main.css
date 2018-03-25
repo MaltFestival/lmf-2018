@@ -2327,6 +2327,10 @@ input[type="button"].small,
 	padding: 0 50px 25px 50px;
 }
 
+.music_text{
+	text-align: justify;
+}
+
 /* Feature */
 
 .feature {
