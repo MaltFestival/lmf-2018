@@ -1,7 +1,7 @@
 function initMap() {
 
-    var lac = {lat: 46.508955, lng: 6.616422};
-    var lac_offset = {lat: 46.512, lng: 6.61422};
+    var lac = {lat: 46.504881, lng: 6.627434};
+    var lac_offset = {lat: 46.5085, lng: 6.627434};
     google.maps.event.addDomListener(window, 'resize', function() {
         google.maps.event.trigger(map, "resize");
         map.setCenter(lac);
@@ -434,7 +434,7 @@ function initMap() {
     // Create a map object, and include the MapTypeId to add
     // to the map type control.
     var mapOptions = {
-        zoom: 14.2,
+        zoom: 15,
         center: lac_offset,
         draggable: false,
         //zoomControl: false,
